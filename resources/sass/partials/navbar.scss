@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------------------
+ * Main Nav Bar Module
+ ----------------------------------------------------------------------- */
+
+.navbar {
+    @apply flex items-center justify-between flex-wrap bg-gray-700;
+}
+
+.navbar-burger-container {
+    @apply flex items-center px-3 py-2 mr-4 border rounded text-gray-100 border-gray-100;
+}
+
+.navbar-burger-container:hover {
+    @apply text-gray-700 bg-gray-100 border-gray-700;
+}
+
+.navbar-burger-img {
+    @apply fill-current h-3 w-3;
+}
+
+.navbar-item {
+    @apply block py-4 px-4 h-full;
+}
+@screen lg {
+    .navbar-item {
+        @apply py-2 px-3;
+    }
+}
+
+.navbar-brand {
+    @apply text-lg bg-gray-700 text-gray-100;
+}
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.navbar-link {
+    @apply text-lg bg-gray-700 text-gray-100;
+}
+
+.navbar-link:hover {
+    @apply text-gray-700 bg-gray-100 border-gray-700;
+}
+
+.navbar-link, .navbar-brand, .navbar-burger-container {
+    transition: all 0.25s ease;
+}
