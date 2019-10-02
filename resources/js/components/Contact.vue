@@ -1,5 +1,5 @@
 <template>
-    <div class="masthead h-screen flex text-center">
+    <div class="masthead flex text-center md:h-screen">
         <div class="md:my-auto md:p-16 pt-16 mx-auto md:bg-gray-600 opacity-75 rounded">
             <h1 class="text-6xl text-gray-100 uppercase">Let's get in touch!</h1>
             <a class="text-gray-700" href="mailto:martushev8@gmail.com"><i class="fas fa-envelope fa-8x text-gray-100"></i></a>
