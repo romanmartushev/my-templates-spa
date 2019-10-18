@@ -18,15 +18,3 @@
 		name: "masthead"
 	}
 </script>
-
-<style type="text/css">
-    .masthead {
-        background: linear-gradient(
-            rgba(52, 58, 64, .4),
-            rgba(52, 58, 64, .4)
-        ),
-        url('/images/masthead.jpg') center center;
-        background-size: cover;
-        min-height: 500px;
-    }
-</style>

@@ -24,13 +24,11 @@
 
         <title>Roman Martushev - Web Development and Design</title>
         <link rel="stylesheet" href="/css/app.css">
+        <script defer src="{{ asset('js/entry-client.js') }}"></script>
     </head>
     <body>
-        <div id="app">
-            @include('partials.navbar')
-            <router-view></router-view>
-            @include('partials.footer')
-        </div>
-        <script src="/js/app.js"></script>
+    <div id="app">
+        {!! ssr('js/entry-server.js')->render() !!}
+    </div>
     </body>
 </html>

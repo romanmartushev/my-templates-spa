@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/{any?}', function () {
-    return view('app');
-});
+use App\Http\Controllers\AppController;
+
+Route::get('/{any?}', [AppController::class, 'get']);
