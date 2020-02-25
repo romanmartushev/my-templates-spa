@@ -14,7 +14,8 @@ const tailwindcss = require('tailwindcss');
 mix.setPublicPath('./public_html');
 
 
-mix.js('resources/js/app.js', 'js')
+mix.js('resources/js/entry-client.js', 'js')
+    .js('resources/js/entry-server.js', 'js')
     .sass('resources/sass/app.scss', 'css')
     .options({
         processCssUrls: false,
