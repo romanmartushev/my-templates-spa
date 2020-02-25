@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-gray-100 mx-auto h-screen">
+    <div class="container text-gray-100 mx-auto h-screen pt-20">
         <div class="flex flex-col px-2 justify-center h-full">
             <img class="mb-3 mb-lg-0 rounded lg:w-3/4 h-auto mx-auto shadow-2xl" src="/images/profile_long.jpg" alt="Roman Martushev">
             <div class="bg-gray-700 opacity-75 lg:hover:opacity-100 p-16 rounded lg:absolute shadow-2xl">
