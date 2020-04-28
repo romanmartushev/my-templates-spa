@@ -1,6 +1,7 @@
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import PageNotFound from "./components/PageNotFound";
 
 export default {
     mode: 'history',
@@ -23,7 +24,7 @@ export default {
         },
         {
           path: '*',
-          component: Home
+          component: PageNotFound
         },
     ]
 }
