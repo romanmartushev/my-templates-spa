@@ -6,12 +6,12 @@
                 <h2 class="mb-4">
                     <span class="text-2xl">Roman Martushev</span>
                 </h2>
-                <ul>
-                    <li class="text-lg"><u>Occupation: </u></li>
-                    <li class="pl-2 pb-4">Web Development/Data Services Representative</li>
-                    <li class="text-lg"><u>Location: </u></li>
-                    <li class="pl-2 pb-4"><a href="https://paulbunyan.net/" class="text-white">Paul Bunyan Communications</a></li>
-                </ul>
+                <transition-group name="slide-up" tag="ul" appear>
+                    <li class="text-lg" key="occupation"><u>Occupation: </u></li>
+                    <li class="pl-2 pb-4" key="occupation-description">Web Development/Data Services Representative</li>
+                    <li class="text-lg" key="location"><u>Location: </u></li>
+                    <li class="pl-2 pb-4" key="location-description"><a href="https://paulbunyan.net/" class="text-white">Paul Bunyan Communications</a></li>
+                </transition-group>
                 <social></social>
             </div>
         </div>
