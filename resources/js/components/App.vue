@@ -40,7 +40,7 @@
                 <social></social>
             </div>
             <div class="footer-copyright text-center py-3">
-                <a href="http://www.romanmartushev.com">romanmartushev.com</a>
+                <a href="https://romanmartushev.com">romanmartushev.com</a>
             </div>
         </footer>
     </div>

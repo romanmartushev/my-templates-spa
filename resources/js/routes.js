@@ -20,6 +20,10 @@ export default {
             name: 'contact',
             path: '/contact',
             component: Contact
-        }
+        },
+        {
+          path: '*',
+          component: Home
+        },
     ]
 }
