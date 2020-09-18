@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-gray-300">
         <nav class="navbar w-full fixed z-10">
             <div class="flex items-center flex-shrink-0 flex-grow text-white">
                 <router-link  class="navbar-item navbar-brand block" :to="{ name: 'home' }">RM</router-link>
@@ -14,12 +14,12 @@
                     <router-link  class="navbar-item navbar-link" :to="{ name: 'home' }">Home</router-link>
                     <router-link  class="navbar-item navbar-link" :to="{ name: 'about' }">About</router-link>
                     <router-link  class="navbar-item navbar-link" :to="{ name: 'contact' }">Contact</router-link>
-                    <a href="https://templated.co/" target="_blank" class="navbar-item navbar-link">Templates</a>
                 </div>
             </div>
         </nav>
-
-        <router-view></router-view>
+        <transition name="fade" mode="out-in">
+            <router-view />
+        </transition>
 
         <footer class="w-full bg-gray-700 bottom-0 pt-4 text-white">
             <div class="container mx-auto">
@@ -40,7 +40,7 @@
                 <social></social>
             </div>
             <div class="footer-copyright text-center py-3">
-                <a href="http://www.romanmartushev.com">romanmartushev.com</a>
+                <a href="https://romanmartushev.com">romanmartushev.com</a>
             </div>
         </footer>
     </div>

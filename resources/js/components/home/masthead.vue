@@ -4,9 +4,17 @@
             <div class="flex-row">
                 <div class="flex flex-col mx-auto">
                     <h1 class="md:text-6xl text-3xl uppercase">
-                        <strong>Roman Martushev</strong>
+                        <strong>
+                            <slot name="header">
+                                Roman Martushev
+                            </slot>
+                        </strong>
                     </h1>
-                    <h2 class="text-2xl"> - web development and design</h2>
+                    <h2 class="text-2xl">
+                        <slot name="secondary">
+                            - web development and design
+                        </slot>
+                    </h2>
                 </div>
             </div>
         </div>
